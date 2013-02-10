@@ -1,0 +1,36 @@
+---
+abstract: 'Perl XS interface to the BLAKE2 algorithms'
+author:
+  - 'Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-cpanATATtitech.ac>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  Module::Build::Pluggable::XSUtil: 0.01
+  Test::Exception: 0
+  Test::More: 0.98
+  Test::Requires: 0
+configure_requires:
+  Devel::CheckCompiler: 0.01
+  ExtUtils::ParseXS: 2.21
+  Module::Build: 0.4003
+  Module::Build::Pluggable::XSUtil: 0.01
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Digest-BLAKE2
+no_index:
+  directory:
+    - inc
+    - author
+provides:
+  Digest::BLAKE2:
+    file: lib/Digest/BLAKE2.pm
+    version: 0.01
+requires:
+  XSLoader: 0.02
+  perl: 5.008005
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01

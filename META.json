@@ -1,0 +1,60 @@
+{
+   "abstract" : "Perl XS interface to the BLAKE2 algorithms",
+   "author" : [
+      "Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-cpanATATtitech.ac>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Digest-BLAKE2",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : "0",
+            "Module::Build::Pluggable::XSUtil" : "0.01",
+            "Test::Exception" : "0",
+            "Test::More" : "0.98",
+            "Test::Requires" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Devel::CheckCompiler" : "0.01",
+            "ExtUtils::ParseXS" : "2.21",
+            "Module::Build" : "0.4003",
+            "Module::Build::Pluggable::XSUtil" : "0.01"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "XSLoader" : "0.02",
+            "perl" : "5.008005"
+         }
+      }
+   },
+   "provides" : {
+      "Digest::BLAKE2" : {
+         "file" : "lib/Digest/BLAKE2.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.01"
+}
