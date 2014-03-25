@@ -4,7 +4,7 @@
       "Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-cpanATATtitech.ac>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4203",
    "license" : [
       "perl_5"
    ],
@@ -23,7 +23,7 @@
       "build" : {
          "requires" : {
             "ExtUtils::CBuilder" : "0",
-            "Module::Build::Pluggable::XSUtil" : "0.01",
+            "Module::Build::Pluggable::XSUtil" : "1.02",
             "Test::Exception" : "0",
             "Test::More" : "0.98",
             "Test::Requires" : "0"
@@ -34,7 +34,7 @@
             "Devel::CheckCompiler" : "0.01",
             "ExtUtils::ParseXS" : "2.21",
             "Module::Build" : "0.4003",
-            "Module::Build::Pluggable::XSUtil" : "0.01"
+            "Module::Build::Pluggable::XSUtil" : "1.02"
          }
       },
       "runtime" : {
@@ -44,17 +44,11 @@
          }
       }
    },
-   "provides" : {
-      "Digest::BLAKE2" : {
-         "file" : "lib/Digest/BLAKE2.pm",
-         "version" : "0.01"
-      }
-   },
    "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
